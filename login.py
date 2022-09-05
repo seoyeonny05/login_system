@@ -8,7 +8,7 @@ def start_login():
     while login:
         login_text = input("로그인 하시겠습니까?")
 
-        # 로그인 여부 묻기에 yes 시, 아이디및 비밀번호를 묻는 단계
+        # 로그인 여부 묻기에 yes 시, 아이디 및 비밀번호를 묻는 단계
         if login_text == "yes":
             id_text = input("아이디를 입력하시오:")
             pass1 = input("비밀번호를 입력하시오:")
